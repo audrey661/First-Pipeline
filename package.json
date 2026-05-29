@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/audrey661/First-Pipeline/issues"
   },
-  "homepage": "https://github.com/audrey661/First-Pipeline#readme"
+  "homepage": "https://github.com/audrey661/First-Pipeline#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
 }
